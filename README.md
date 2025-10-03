@@ -234,47 +234,7 @@
             margin-right: 10px;
         }
 
-        /* Workflow Section */
-        .workflow {
-            background: white;
-            padding: 80px 0;
-            text-align: center;
-        }
-
-        .workflow-diagram {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 2rem;
-            margin: 3rem 0;
-        }
-
-        .workflow-step {
-            background: linear-gradient(135deg, #204482 0%, #3F83EA 100%);
-            color: white;
-            padding: 1.5rem;
-            border-radius: 15px;
-            min-width: 150px;
-            position: relative;
-            box-shadow: 0 8px 25px rgba(32, 68, 130, 0.3);
-            transition: all 0.3s ease;
-        }
-
-        .workflow-step:hover {
-            background: linear-gradient(135deg, #46B763 0%, #3F83EA 100%);
-            transform: translateY(-3px);
-        }
-
-        .workflow-step:not(:last-child)::after {
-            content: "→";
-            position: absolute;
-            right: -30px;
-            top: 50%;
-            transform: translateY(-50%);
-            font-size: 2rem;
-            color: #3F83EA;
-        }
+        
 
         /* Benefits Section */
         .benefits {
